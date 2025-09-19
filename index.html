@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mazen Mohamed | Fortinet Security Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide-react@0.292.0/dist/lucide-react.js"></script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a192f;
+            color: #ccd6f6;
+        }
+
+        .glass-effect {
+            background: rgba(13, 38, 76, 0.6);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .highlight-text {
+            color: #64ffda;
+        }
+        
+        nav a.active {
+            color: #64ffda;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body class="antialiased">
+    <!-- Header & Navigation -->
+    <header class="glass-effect sticky top-0 z-50 transition-all duration-300">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold highlight-text">MM</a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="#about" class="hover:text-cyan-400 transition-colors duration-300">About</a>
+                <a href="#skills" class="hover:text-cyan-400 transition-colors duration-300">Skills</a>
+                <a href="#projects" class="hover:text-cyan-400 transition-colors duration-300">Projects</a>
+                <a href="#education" class="hover:text-cyan-400 transition-colors duration-300">Education</a>
+                <a href="#contact" class="hover:text-cyan-400 transition-colors duration-300">Contact</a>
+            </div>
+             <a href="Mazen_Mohamed_Fortinet.pdf" download class="hidden md:block bg-cyan-500 text-slate-900 font-bold py-2 px-4 rounded-lg hover:bg-cyan-400 transition-colors duration-300">Download CV</a>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-6 py-12 md:py-20">
+        <!-- Hero Section -->
+        <section id="hero" class="min-h-[80vh] flex flex-col justify-center">
+            <p class="text-lg text-cyan-400 mb-4">Hi, my name is</p>
+            <h1 class="text-4xl md:text-7xl font-bold text-slate-200">Mazen Mohamed.</h1>
+            <h2 class="text-4xl md:text-6xl font-bold text-slate-400 mt-2">I build and secure networks.</h2>
+            <p class="mt-6 max-w-2xl text-lg text-slate-400">
+                I'm a Fortinet Security Engineer specializing in designing, implementing, and protecting robust network infrastructures. Currently, I'm enhancing my expertise through the Egypt Digital Pioneers Initiative to deliver cutting-edge security solutions.
+            </p>
+            <div class="mt-8">
+                <a href="#contact" class="bg-transparent border border-cyan-400 text-cyan-400 font-bold py-3 px-8 rounded-lg hover:bg-cyan-400 hover:text-slate-900 transition-all duration-300">Get In Touch</a>
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section id="about" class="py-20">
+            <h3 class="text-3xl font-bold highlight-text mb-8 flex items-center"><span class="text-2xl text-cyan-400 mr-4">01.</span> About Me</h3>
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-10 items-center">
+                <div class="md:col-span-3 text-slate-400 space-y-4 text-lg">
+                    <p>
+                        I'm a motivated second-year Computer and Control Systems Engineering student at Mansoura University with a deep passion for cybersecurity. My journey is currently focused on mastering network security through the Fortinet Certified Professional (FCP) track, where I'm gaining hands-on experience with FortiGate and FortiManager.
+                    </p>
+                    <p>
+                        I believe in continuous growth through practical application. Whether it's through hands-on labs, complex simulations, or real-world problem-solving, I thrive on the challenges of safeguarding digital environments. My goal is to combine my technical expertise with strong problem-solving skills to build resilient and secure systems for enterprises.
+                    </p>
+                     <p>
+                        Outside of my core studies, I enjoy exploring new programming languages and staying ahead of emerging network defense strategies.
+                    </p>
+                </div>
+                <div class="md:col-span-2 relative group w-full max-w-sm mx-auto">
+                    <div class="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                     <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Mazen Mohamed" class="relative rounded-lg w-full h-full object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="py-20">
+             <h3 class="text-3xl font-bold highlight-text mb-12 flex items-center justify-center"><span class="text-2xl text-cyan-400 mr-4">02.</span> My Skills</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Network Infrastructure -->
+                <div class="glass-effect p-6 rounded-lg text-center">
+                    <svg class="w-12 h-12 text-cyan-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l4-4 4 4m0 6l-4 4-4-4"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v18"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12h18"></path></svg>
+                    <h4 class="text-xl font-bold text-slate-200 mb-2">Network Infrastructure</h4>
+                    <p class="text-slate-400">TCP/IP, DHCP, DNS, ARP, ICMP, Routing & Switching.</p>
+                </div>
+                <!-- Security -->
+                <div class="glass-effect p-6 rounded-lg text-center">
+                    <svg class="w-12 h-12 text-cyan-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                    <h4 class="text-xl font-bold text-slate-200 mb-2">Security</h4>
+                    <p class="text-slate-400">FortiGate Firewall (v7.4), FortiManager, VPN, IDS/IPS, NAT, Access Control.</p>
+                </div>
+                <!-- Tools & Vendors -->
+                <div class="glass-effect p-6 rounded-lg text-center">
+                     <svg class="w-12 h-12 text-cyan-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    <h4 class="text-xl font-bold text-slate-200 mb-2">Tools & Vendors</h4>
+                    <p class="text-slate-400">Fortinet, Cisco Packet Tracer, Wireshark, Nmap, Kali Linux.</p>
+                </div>
+                <!-- Automation & Programming -->
+                <div class="glass-effect p-6 rounded-lg text-center">
+                    <svg class="w-12 h-12 text-cyan-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                    <h4 class="text-xl font-bold text-slate-200 mb-2">Programming</h4>
+                    <p class="text-slate-400">C++ (Modern C++11/14/17), Python (basics), Linux CLI.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="py-20">
+            <h3 class="text-3xl font-bold highlight-text mb-12 flex items-center"><span class="text-2xl text-cyan-400 mr-4">03.</span> Projects & Experience</h3>
+            <div class="space-y-12">
+                <!-- Project 1 -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+                    <div class="md:col-span-7">
+                        <p class="text-cyan-400">Featured Project</p>
+                        <h4 class="text-2xl font-bold text-slate-200 mb-4">FortiGate Firewall Policy Implementation</h4>
+                        <div class="glass-effect p-6 rounded-lg mb-4">
+                            <p class="text-slate-400">Simulated real-world firewall configuration tasks in a lab environment to control traffic between network segments. This involved applying inbound/outbound rules for web access, blocking traffic, and filtering based on service ports and IPs.</p>
+                        </div>
+                        <ul class="flex flex-wrap gap-x-4 gap-y-2 text-slate-400">
+                            <li>FortiGate 7.4</li>
+                            <li>Firewall Policies</li>
+                            <li>NAT Rules</li>
+                            <li>CLI & GUI</li>
+                        </ul>
+                    </div>
+                    <div class="md:col-span-5 opacity-75 hover:opacity-100 transition-opacity duration-300">
+                         <img src="https://placehold.co/600x400/0a192f/64ffda?text=Network+Diagram" class="rounded-lg shadow-lg" alt="Firewall Project">
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                 <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+                     <div class="md:col-span-5 order-last md:order-first opacity-75 hover:opacity-100 transition-opacity duration-300">
+                         <img src="https://placehold.co/600x400/0a192f/64ffda?text=Monitoring+Dashboard" class="rounded-lg shadow-lg" alt="Monitoring Project">
+                    </div>
+                    <div class="md:col-span-7 text-right">
+                        <p class="text-cyan-400">Featured Project</p>
+                        <h4 class="text-2xl font-bold text-slate-200 mb-4">FortiManager Log & Alerting System</h4>
+                        <div class="glass-effect p-6 rounded-lg mb-4">
+                            <p class="text-slate-400">Built a centralized monitoring setup using FortiManager 7.4 to manage and analyze logs from simulated FortiGate devices. Configured the system to correlate event logs and set up automated alerts for critical security events like unauthorized login attempts.</p>
+                        </div>
+                        <ul class="flex flex-wrap gap-x-4 gap-y-2 text-slate-400 justify-end">
+                            <li>FortiManager 7.4</li>
+                            <li>Log Analysis</li>
+                            <li>Alerting</li>
+                            <li>Centralized Management</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+                    <div class="md:col-span-7">
+                        <p class="text-cyan-400">Featured Project</p>
+                        <h4 class="text-2xl font-bold text-slate-200 mb-4">Virtual Enterprise Network Security Design</h4>
+                        <div class="glass-effect p-6 rounded-lg mb-4">
+                            <p class="text-slate-400">Designed and created a simulated enterprise LAN/WAN network with multi-layer Fortinet protection. The project involved implementing FortiGate-based routing, firewall segmentation, VPN tunnel setup, and user-access zones with role-based traffic rules (ACLs).</p>
+                        </div>
+                        <ul class="flex flex-wrap gap-x-4 gap-y-2 text-slate-400">
+                            <li>Network Design</li>
+                            <li>Segmentation</li>
+                            <li>VPN</li>
+                            <li>Access Control Lists</li>
+                        </ul>
+                    </div>
+                    <div class="md:col-span-5 opacity-75 hover:opacity-100 transition-opacity duration-300">
+                         <img src="https://placehold.co/600x400/0a192f/64ffda?text=Secure+Topology" class="rounded-lg shadow-lg" alt="Network Design Project">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications -->
+        <section id="education" class="py-20 text-center">
+            <h3 class="text-3xl font-bold highlight-text mb-12 flex items-center justify-center"><span class="text-2xl text-cyan-400 mr-4">04.</span> Education & Certifications</h3>
+             <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+                <div class="glass-effect p-6 rounded-lg">
+                    <h4 class="text-xl font-bold text-slate-200">Education</h4>
+                    <div class="mt-4">
+                        <p class="font-semibold text-cyan-400">B.Sc. in Computer and Control Systems Engineering</p>
+                        <p class="text-slate-300">Mansoura University</p>
+                        <p class="text-slate-400 text-sm">Oct 2023 - Present</p>
+                    </div>
+                </div>
+                <div class="glass-effect p-6 rounded-lg">
+                    <h4 class="text-xl font-bold text-slate-200">Certifications & Training</h4>
+                     <ul class="mt-4 space-y-3 text-slate-300">
+                        <li><span class="text-cyan-400">&#9656;</span> Fortinet Certified Professional (FCP) - Network Security (In Progress)</li>
+                        <li><span class="text-cyan-400">&#9656;</span> Cisco Certified Network Associate (CCNA) (Studying)</li>
+                        <li><span class="text-cyan-400">&#9656;</span> Egypt Digital Pioneers Initiative - Fortinet Cybersecurity Program</li>
+                         <li><span class="text-cyan-400">&#9656;</span> Mastering 4 Critical Skills Using Modern C++17 - Udemy</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gemini Cybersecurity Explainer -->
+        <section id="explainer" class="py-20 text-center">
+            <h3 class="text-3xl font-bold highlight-text mb-12 flex items-center justify-center">
+                <span class="text-2xl text-cyan-400 mr-4">✨</span> Cybersecurity Quick Explainer
+            </h3>
+            <div class="max-w-3xl mx-auto glass-effect p-8 rounded-lg">
+                <p class="text-slate-400 mb-6">
+                    Curious about a specific cybersecurity concept? Enter a term below and get a concise explanation powered by Gemini.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <input type="text" id="searchTerm" placeholder="e.g., Zero-Day Exploit, Phishing, IDS/IPS" class="w-full bg-slate-800 border border-slate-600 rounded-lg px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-400 transition">
+                    <button id="explainButton" class="bg-cyan-500 text-slate-900 font-bold py-3 px-6 rounded-lg hover:bg-cyan-400 transition-colors duration-300 flex items-center justify-center">
+                        Explain
+                    </button>
+                </div>
+                <div id="explanationResult" class="mt-8 text-left text-slate-300 bg-slate-900/50 p-6 rounded-lg min-h-[100px] whitespace-pre-wrap flex items-center justify-center">
+                    Your explanation will appear here...
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact" class="py-20 text-center">
+             <h3 class="text-3xl font-bold highlight-text mb-4"><span class="text-2xl text-cyan-400">05.</span> What's Next?</h3>
+             <h4 class="text-5xl font-bold text-slate-200 mb-4">Get In Touch</h4>
+             <p class="max-w-2xl mx-auto text-slate-400 mb-8">
+                 I'm actively seeking internship opportunities where I can apply my skills and contribute to a professional cybersecurity team. My inbox is always open, whether you have a question or just want to say hi, I'll do my best to get back to you!
+             </p>
+             <a href="mailto:mazenOmohamed1@gmail.com" class="inline-block bg-cyan-500 text-slate-900 font-bold py-4 px-8 rounded-lg hover:bg-cyan-400 transition-colors duration-300 text-lg">
+                Say Hello
+            </a>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="py-8">
+        <div class="container mx-auto px-6 text-center text-slate-400">
+             <div class="flex justify-center space-x-6 mb-4">
+                <a href="https://github.com/mazen-vn" target="_blank" rel="noopener noreferrer" class="hover:text-cyan-400 transition-colors duration-300">
+                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+                <a href="http://www.linkedin.com/in/mazen0mohamed" target="_blank" rel="noopener noreferrer" class="hover:text-cyan-400 transition-colors duration-300">
+                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+                </a>
+             </div>
+            <p>Designed & Built by Mazen Mohamed</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple script for active nav link highlighting on scroll
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('nav a[href^="#"]');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.4
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href').substring(1) === entry.target.id) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+
+        // --- Gemini API Feature ---
+        const explainButton = document.getElementById('explainButton');
+        const searchTermInput = document.getElementById('searchTerm');
+        const explanationResultDiv = document.getElementById('explanationResult');
+        const apiKey = ""; // This will be automatically provided by the environment.
+
+        explainButton.addEventListener('click', async () => {
+            const searchTerm = searchTermInput.value.trim();
+            if (!searchTerm) {
+                explanationResultDiv.textContent = 'Please enter a term to explain.';
+                return;
+            }
+
+            explanationResultDiv.innerHTML = '<div class="flex justify-center items-center h-full"><div class="animate-spin rounded-full h-8 w-8 border-b-2 border-cyan-400"></div></div>';
+            explainButton.disabled = true;
+            explainButton.textContent = 'Thinking...';
+
+            const systemPrompt = `You are a senior cybersecurity expert and network engineer, acting as a helpful assistant on a portfolio website.
+            Explain the following term in a clear, concise paragraph (no more than 3-4 sentences) suitable for someone with some technical knowledge, like a recruiter or hiring manager.
+            Focus on its relevance and impact in a corporate network environment. Do not use markdown.`;
+            const userQuery = searchTerm;
+            const apiUrl = \`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=\${apiKey}\`;
+
+            const payload = {
+                contents: [{ parts: [{ text: userQuery }] }],
+                systemInstruction: {
+                    parts: [{ text: systemPrompt }]
+                },
+            };
+
+            try {
+                // Using exponential backoff for retries
+                let response;
+                for (let i = 0; i < 3; i++) {
+                    response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+                    if (response.ok) break;
+                    if (i < 2) await new Promise(resolve => setTimeout(resolve, 1000 * (i + 1)));
+                }
+
+                if (!response.ok) {
+                    throw new Error(\`API request failed with status \${response.status}\`);
+                }
+
+                const result = await response.json();
+                const candidate = result.candidates?.[0];
+
+                if (candidate && candidate.content?.parts?.[0]?.text) {
+                    explanationResultDiv.textContent = candidate.content.parts[0].text;
+                } else {
+                    explanationResultDiv.textContent = 'Sorry, I couldn\'t generate an explanation. The response was empty. Please try another term.';
+                    console.error('Unexpected API response structure:', result);
+                }
+
+            } catch (error) {
+                console.error('Error fetching explanation:', error);
+                explanationResultDiv.textContent = 'An error occurred while fetching the explanation. Please check the console and try again.';
+            } finally {
+                explainButton.disabled = false;
+                explainButton.textContent = 'Explain';
+            }
+        });
+
+        searchTermInput.addEventListener('keypress', (event) => {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                explainButton.click();
+            }
+        });
+
+    </script>
+</body>
+</html>
+
